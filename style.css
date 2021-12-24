@@ -65,7 +65,7 @@ header > img {
   width: 200px;
 }
 
-.header--container {
+.header-container {
   width: 90%;
   min-width: 288px;
   max-width: 900px;
@@ -73,14 +73,14 @@ header > img {
   margin-top: 40px;
 }
 
-.header--container h1 {
+.header-container h1 {
     font-size: 2.4rem;
     font-weight: 700;
     line-height: 2.6rem;
     color: var(--just-white);
 }
 
-.header--container p {
+.header-container p {
     margin-top: 24px;
     font-size: 1.4rem;
     font-weight: 500;
@@ -88,7 +88,7 @@ header > img {
     color: var(--soft-orange);
 }
 
-.header--container .header-button {
+.header-container .header-button {
     position: absolute;
     top: 270px;
     left: calc(50% - 115px)    ;
@@ -114,9 +114,69 @@ header > img {
     height: 8px;
     margin-left: 8px;
     background-image: url('./assets/icons/down-arrow.svg');
-
-    
 }
+
+main {
+  width: 100%;
+  height: auto;
+  background-color: var(--off-white);
+}
+
+.exchange-container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.exchange-title {
+  width: 90%;
+  min-width: 288px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
