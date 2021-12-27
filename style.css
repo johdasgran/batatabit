@@ -271,7 +271,7 @@ span.up {
   width: 41px;
   height: 25px;
   top: calc(0% - 12.5px);
-	left: calc(50% - 20px);
+  left: calc(50% - 20px);
   background: url(./assets/icons/batata.svg);
 }
 
@@ -281,7 +281,7 @@ span.up {
 }
 
 .product h2 {
-  font-size: 2.4rem;;
+  font-size: 2.4rem;
   font-weight: 700;
   color: var(--just-white);
   line-height: 2.6rem;
@@ -295,38 +295,54 @@ span.up {
   line-height: 1.8rem;
 }
 
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.card {
+  margin-top: 32px;
+  padding: 20px;
+  min-width: 288px;
+  max-width: 350px;
+  background: var(--black);
+  border-radius: 5px;
+}
 
+.card span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
 
+.card .clock {
+  background: url(./assets/icons/clock.svg);
+}
 
+.card .eye {
+  background: url(./assets/icons/eye.svg);
+}
 
+.card .dolar {
+  background: url(./assets/icons/dollar-sign.svg);
+}
 
+.card .check {
+  background: url(./assets/icons/check-circle.svg);
+}
 
+.card .card-title {
+  padding: 12px 0;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+  font-weight: 700;
+  color: var(--just-white);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.card .card-body {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+  color: #808080;
+}
