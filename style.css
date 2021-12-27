@@ -188,7 +188,7 @@ tbody {
 .money-container > p {
   display: inline-block;
   margin-left: -80px;
- 
+
   font-size: 1.8rem;
   font-weight: 700;
   padding-bottom: 12px;
@@ -201,7 +201,6 @@ tbody {
 .money-container > p.commissions {
   color: var(--secondary-blue);
 }
-
 
 .money-table tr td {
   padding: 10px 12px;
@@ -255,3 +254,79 @@ span.up {
 .update.update-commissions {
   background-color: var(--soft-blue);
 }
+
+/** SECTION BENEFICIOS**/
+
+.product-container {
+  position: relative;
+  background-color: var(--warm-black);
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 16px;
+}
+
+.product-container .logo {
+  position: absolute;
+  width: 41px;
+  height: 25px;
+  top: calc(0% - 12.5px);
+	left: calc(50% - 20px);
+  background: url(./assets/icons/batata.svg);
+}
+
+.product {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.product h2 {
+  font-size: 2.4rem;;
+  font-weight: 700;
+  color: var(--just-white);
+  line-height: 2.6rem;
+}
+
+.product p {
+  padding-top: 24px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #808080;
+  line-height: 1.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
