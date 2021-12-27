@@ -362,3 +362,91 @@ span.up {
   color: var(--just-white);
   text-align: center;
 }
+
+/** SECTOIONS PLANS  **/
+
+.plans-container {
+  padding: 40px 24px;
+  background-color: #E5E5E5;
+  text-align: center;
+}
+
+.plan-detail h2 {
+  font-size: 2.4rem;
+  font-weight: 700; 
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+
+.plan-detail p {
+  padding-top: 24px;
+  font-size: 1.4rem;
+  font-weight: 500; 
+  line-height: 1.8rem;
+  color: #757575;
+}
+
+.target-container {
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
