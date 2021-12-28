@@ -1,0 +1,26 @@
+body {
+    background-color: thistle !important ;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    margin: 24px;
+}
+
+.tables-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.target-container {
+    justify-content: center;
+    overflow-x: hidden;
+}
