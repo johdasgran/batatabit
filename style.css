@@ -188,7 +188,6 @@ tbody {
 .money-container > p {
   display: inline-block;
   margin-left: -80px;
-
   font-size: 1.8rem;
   font-weight: 700;
   padding-bottom: 12px;
@@ -255,7 +254,7 @@ span.up {
   background-color: var(--soft-blue);
 }
 
-/** SECTION BENEFICIOS**/
+/** SECTION BENEFITS**/
 
 .product-container {
   position: relative;
@@ -263,7 +262,7 @@ span.up {
   width: 100%;
   min-width: 320px;
   height: auto;
-  padding: 20px 16px;
+  padding: 20px 16px 48px 16px;
 }
 
 .product-container .logo {
@@ -387,15 +386,23 @@ span.up {
 }
 
 .target-container {
-  padding-top: 40px;
+  display: flex;
+  /* flex-direction: column; */
+  padding-top: 20px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: proximity;
 
 }
 
 .target {
   position: relative;
+  scroll-snap-align: center;
   padding: 24px;
+  min-width: 200px;
   width: 200px;
-  margin: 0 auto;
+  /* margin: 20px auto; */
+  margin: 20px 20px;
   background-color: var(--just-white);
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
@@ -456,10 +463,12 @@ span.up {
   padding: 10px 15px;
   font-size: 1.4rem;
   line-height: 1.8rem;
+  font-family: var(--font-primary);
   font-weight: 700;
   border: 2px solid var(--bitcoin-orange);
   border-radius: 4px;
   color: var(--warm-black);
+  cursor: pointer;
   background-color: var(--off-white);
 }
 
