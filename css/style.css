@@ -22,10 +22,18 @@
   --font-primary: "DM Sans", sans-serif;
   --font-secondary: "Inter", sans-serif;
 
+   /* Font size */
+
+  --sm: 1.4rem;
+  --md: 1.8rem;
+  --lg: 2.4rem;
+
   /* Weight */
   --light: 300;
   --medium: 500;
   --bold: 700;
+
+ 
 }
 
 * {
@@ -40,25 +48,22 @@ html {
   min-width: 320px;
 }
 
+h2 {
+  font-size: var(--lg);
+  font-weight: 700;
+  line-height: 2.6rem;
+}
+
 header {
   position: relative;
   display: flex;
   flex-direction: column;
-  /* align -items: center para los contenedores centre a sus hijos*/
   align-items: center;
   width: 100%;
-  /* min-width: 320px; */
   height: 334px;
   text-align: center;
-  /* background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%); */
-  /*background: #fc4a1a;   fallback for old browsers */
-  /* background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);   Chrome 10-25, Safari 5.1-6 */
-  /* background: linear-gradient(to right, #f7b733, #fc4a1a); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /* background: linear-gradient(to right, #423519, #b93b19); */
-
-  /* background: linear-gradient(to right, #1e0909, #851f03); */
-  background: linear-gradient(to left, #1e0909, #561402);
-  /* #562d02 */
+  background: linear-gradient(to left, #1e0909, #562d02);
+  /* background: url(../assets/images/cripto.jpg) center/cover no-repeat; */
 }
 
 header > img {
@@ -75,7 +80,7 @@ header > img {
 }
 
 .header-container h1 {
-  font-size: 2.4rem;
+  font-size: var(--lg);
   font-weight: 700;
   line-height: 2.6rem;
   color: var(--just-white);
@@ -83,7 +88,7 @@ header > img {
 
 .header-container p {
   margin-top: 24px;
-  font-size: 1.4rem;
+  font-size: var(--sm);
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--soft-orange);
@@ -103,7 +108,7 @@ header > img {
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   border: none;
   border-radius: 5px;
-  font-size: 1.4rem;
+  font-size: var(--sm);
   font-weight: 700;
   text-decoration: none;
   color: var(--black);
@@ -120,7 +125,6 @@ header > img {
 
 main {
   width: 100%;
-  /* min-width: 320px; */
   height: auto;
   background-color: var(--off-white);
 }
@@ -145,21 +149,18 @@ div.bitcoin-image {
 
 .exchange-title {
   width: 90%;
-  min-width: 288px;
-  max-width: 900px;
+  /* min-width: 288px;
+  max-width: 900px; */
   margin: 0 auto;
 }
 
 .exchange-title h2 {
-  font-size: 2.4rem;
-  font-weight: 700;
   padding-top: 40px;
-  line-height: 2.6rem;
   color: var(--warm-black);
 }
 
 .exchange-title p {
-  font-size: 1.4rem;
+  font-size: var(--sm);
   font-weight: 500;
   padding-top: 24px;
   padding-bottom: 48px;
@@ -189,7 +190,7 @@ tbody {
 .money-container > p {
   display: inline-block;
   margin-left: -80px;
-  font-size: 1.8rem;
+  font-size: var(--md);
   font-weight: 700;
   padding-bottom: 12px;
 }
@@ -281,15 +282,12 @@ span.up {
 }
 
 .product h2 {
-  font-size: 2.4rem;
-  font-weight: 700;
   color: var(--just-white);
-  line-height: 2.6rem;
 }
 
 .product p {
   padding-top: 24px;
-  font-size: 1.4rem;
+  font-size: var(--sm);
   font-weight: 500;
   color: #808080;
   line-height: 1.8rem;
@@ -334,14 +332,14 @@ span.up {
 
 .card .card-title {
   padding: 12px 0;
-  font-size: 1.8rem;
+  font-size: var(--md);
   line-height: 1.8rem;
   font-weight: 700;
   color: var(--just-white);
 }
 
 .card .card-body {
-  font-size: 1.4rem;
+  font-size: var(--sm);
   line-height: 1.8rem;
   font-weight: 500;
   color: #808080;
@@ -351,14 +349,11 @@ span.up {
   width: 100%;
   min-width: 320px;
   height: 50vh;
-  background: url(../assets/images/bitcoinbaby2x.png) center/cover no-repeat;
+  background: url(../assets/images/cripto.jpg) center/cover no-repeat;
 }
 
 .bitcoin-container h2 {
   padding-top: 60px;
-  font-size: 2.4rem;
-  font-weight: 700;
-  line-height: 2.6rem;
   color: var(--just-white);
   text-align: center;
 }
@@ -367,14 +362,10 @@ span.up {
 
 .plans-container {
   padding: 40px 24px;
-  background-color: #E5E5E5;
   text-align: center;
 }
 
 .plan-detail h2 {
-  font-size: 2.4rem;
-  font-weight: 700; 
-  line-height: 2.6rem;
   color: var(--warm-black);
 }
 
@@ -487,7 +478,8 @@ span.up {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--bitcoin-orange) ;
+  /* background-color: var(--bitcoin-orange) ; */
+  background-color: #201e1c;
   padding: 40px 65px;
   font-weight: 500;
 }
