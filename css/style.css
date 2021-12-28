@@ -48,7 +48,7 @@ html {
   min-width: 320px;
 }
 
-h2 {
+h1, h2 {
   font-size: var(--lg);
   font-weight: 700;
   line-height: 2.6rem;
@@ -62,8 +62,8 @@ header {
   width: 100%;
   height: 334px;
   text-align: center;
-  background: linear-gradient(to left, #1e0909, #562d02);
-  /* background: url(../assets/images/cripto.jpg) center/cover no-repeat; */
+  /* background: linear-gradient(to left, #1e0909, #562d02); */
+  background: url(../assets/images/scattered-forcefields.svg) center/cover no-repeat;
 }
 
 header > img {
@@ -73,16 +73,12 @@ header > img {
 
 .header-container {
   width: 90%;
-  min-width: 288px;
-  max-width: 900px;
+
   height: 218px;
   margin-top: 40px;
 }
 
 .header-container h1 {
-  font-size: var(--lg);
-  font-weight: 700;
-  line-height: 2.6rem;
   color: var(--just-white);
 }
 
@@ -102,7 +98,7 @@ header > img {
   margin-top: 35px;
   padding: 15px;
   width: 230px;
-  height: 48px;
+  height: auto;
   background-color: var(--off-white);
   /* Shadow */
   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
@@ -119,7 +115,7 @@ header > img {
   width: 13px;
   height: 8px;
   margin-left: 8px;
-  background-image: url("../assets/icons/down-arrow.svg");
+  background: url("../assets/icons/down-arrow.svg") no-repeat;
 
 }
 
@@ -479,7 +475,8 @@ span.up {
   justify-content: space-between;
   align-items: center;
   /* background-color: var(--bitcoin-orange) ; */
-  background-color: #201e1c;
+  /* background-color: #201e1c; */
+  background-color: #2f1a04;
   padding: 40px 65px;
   font-weight: 500;
 }
