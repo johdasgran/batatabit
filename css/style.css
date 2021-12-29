@@ -367,7 +367,7 @@ span.up {
 
 .plan-detail p {
   padding-top: 24px;
-  font-size: 1.4rem;
+  font-size: var(--sm);
   font-weight: 500; 
   line-height: 1.8rem;
   color: #757575;
@@ -413,7 +413,7 @@ span.up {
 .target-content h3 {
   padding-top: 18px;
   font-weight: 500;
-  font-size: 1.4rem;
+  font-size: var(--sm);
   line-height: 1.8rem;
 }
 
@@ -449,7 +449,7 @@ span.up {
   margin: 0 auto;
   margin-top: 16px;
   padding: 10px 15px;
-  font-size: 1.4rem;
+  font-size: var(--sm);
   line-height: 1.8rem;
   font-family: var(--font-primary);
   font-weight: 700;
@@ -474,8 +474,6 @@ span.up {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: var(--bitcoin-orange) ; */
-  /* background-color: #201e1c; */
   background-color: #2f1a04;
   padding: 40px 65px;
   font-weight: 500;
@@ -499,10 +497,17 @@ span.up {
 
 .footer .redes ul li a {
   padding: 8px;
-  font-size: 1.4rem;
+  font-size: var(--sm);
   font-weight: 500;
   text-decoration: none;
   color: var(--just-white);
+}
+
+.copyright .copy-batatabit {
+  display: inline-block;
+  width: 41px;
+  height: 25px;
+  background: url(../assets/icons/batata.svg);
 }
 
 .footer .copyright p {

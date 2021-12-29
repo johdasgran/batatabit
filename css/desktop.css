@@ -1,140 +1,203 @@
 :root {
-    --sm: 2.8rem;
-    --md: 3.8rem;
-    --lg: 4.4rem;
-  }
-  
- h1,  h2 {
-    font-size: var(--lg);
-    font-weight: 700;
-    line-height: 4.8rem;
-  }
-  
-  header {
-    justify-content: center;
-    height: 600px;
-  }
-  
-  header > img {
-    margin-top: 20px;
-    width: 400px;
-  }
-
-  .header-container p {
-    line-height: 3.2rem;
-  }
-  
-  .header-container .header-button {
-    top: 312px;
-    left: calc(50% - 215px);
-    margin-top: 255px;
-    width: 430px;
-  }
-  
-  /***********************/
-
-  
-  section.exchange-container {
-    width: 100%;
-    height: auto;
-    padding-top: 80px;
-    padding-bottom: 30px;
-    text-align: center;
-  }
-  
-  div.bitcoin-image {
-    width: 400px;
-    height: 400px;
-  }
-  
-  .exchange-title p {
-    line-height: 3.2rem;
-  }
-
-  /** COMPLETED */ 
-  
-  /***** SECTION TABLES *****/
-  
-
-  .tables-container {
-    gap: 150px;
+  --sm: 2.8rem;
+  --md: 3.8rem;
+  --lg: 4.4rem;
 }
 
-  .money-table tr td {
-    padding: 10px 12px;
-  }
-  
-  .money-table tr td:nth-child(1) {
-    font-size: 3.0rem;
+h1,
+h2 {
+  font-size: var(--lg);
+  font-weight: 700;
+  line-height: 4.8rem;
+}
 
-  }
-  
-  .money-table tr td:nth-child(2) {
-    font-size: 2.8rem;
-  }
-  
-  .money-table .table span {
-    width: 24px;
-    height: 24px;
-  }
-  
-  span.down {
-    background: url(../assets/icons/desktop/trending-down.png) center/cover no-repeat;
-  }
-  
-  span.up {
-    background: url(../assets/icons/desktop/trending-up.png) center/cover no-repeat;
-  }
-  
-  .update {
-    font-size: 2rem;
-    padding: 12px;
-    border-radius: 8px;
-  }
+header {
+  justify-content: center;
+  height: 600px;
+}
 
-  /** COMPLETED **/
-  
-  /** SECTION BENEFITS**/
+header > img {
+  margin-top: 20px;
+  width: 400px;
+}
 
- .product-container .logo {
-    position: absolute;
-    width: 82px;
-    height: 49px;
-    top: calc(0% - 26px);
-    left: calc(50% - 20px);
-    background: url(../assets/icons/desktop/batata.png);
-  }
-  
-  .product {
-    margin-top: 58px;
-  }
-  
-  .product p {
-    padding-top: 34px;
-    line-height: 3.8rem;
-  }
-  
-  .card {
-    padding: 30px;
-    max-width: 450px;
-  }
- 
- .card .card-title {
-    font-size: 2.4rem;
-    line-height: 2.8rem;
-  }
-  
-  .card .card-body {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
-  }
-  
-  /** COMPLETED **/
-  
-  /** SECTOIONS PLANS  **/
-  
+.header-container p {
+  line-height: 3.2rem;
+}
 
+.header-container .header-button {
+  top: 312px;
+  left: calc(50% - 215px);
+  margin-top: 255px;
+  width: 430px;
+}
 
-  
-  
-  
+section.exchange-container {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+div.bitcoin-image {
+  width: 400px;
+  height: 400px;
+}
+
+.exchange-title p {
+  line-height: 3.2rem;
+}
+
+/***** SECTION TABLES *****/
+
+.tables-container {
+  gap: 150px;
+}
+
+.money-table tr td {
+  padding: 10px 12px;
+}
+
+.money-table tr td:nth-child(1) {
+  font-size: 3rem;
+}
+
+.money-table tr td:nth-child(2) {
+  font-size: 2.8rem;
+}
+
+.money-table .table span {
+  width: 24px;
+  height: 24px;
+}
+
+span.down {
+  background: url(../assets/icons/desktop/trending-down.png) center/cover
+    no-repeat;
+}
+
+span.up {
+  background: url(../assets/icons/desktop/trending-up.png) center/cover
+    no-repeat;
+}
+
+.update {
+  font-size: 2rem;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+/** SECTION BENEFITS**/
+
+.product-container .logo {
+  position: absolute;
+  width: 82px;
+  height: 49px;
+  top: calc(0% - 26px);
+  left: calc(50% - 20px);
+  background: url(../assets/icons/desktop/batata.png);
+}
+
+.product {
+  margin-top: 58px;
+}
+
+.product p {
+  padding-top: 34px;
+  line-height: 3.8rem;
+}
+
+.card {
+  padding: 30px;
+  max-width: 450px;
+}
+
+.card .card-title {
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
+
+.card .card-body {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+}
+
+/** SECTOIONS PLANS  **/
+
+.plan-detail p {
+  line-height: 2.8rem;
+}
+
+.target-container {
+  padding-top: 40px;
+}
+
+.target {
+  width: 300px;
+}
+
+.target .target-tittle {
+  top: calc(0% - 19.5px);
+  right: calc(50% - 90px);
+  padding: 12px;
+  font-size: 2.2rem;
+}
+
+.target-content h3 {
+  padding-top: 32px;
+  line-height: 2.8rem;
+}
+
+.target-content p:nth-child(2) {
+  padding: 20px;
+  font-size: 8.2rem;
+}
+
+.target-content p span {
+  top: 28px;
+  left: 50px;
+  font-size: 2.2rem;
+}
+
+.target-content p:nth-child(3) {
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.target-content .button {
+  font-size: 2.2rem;
+  margin-top: 24px;
+  padding: 20px 25px;
+  line-height: 2.8rem;
+}
+
+.target-content .button span {
+  width: 36px;
+  height: 36px;
+  background: url(../assets/icons/desktop/arrow-right.png) center/cover
+    no-repeat;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 80px 120px;
+}
+
+.footer .redes ul li {
+  padding: 8px;
+}
+
+.copyright .copy-batatabit {
+  width: 82px;
+  height: 49px;
+  background: url(../assets/icons/desktop/batata.png);
+}
+
+.footer .copyright p {
+  padding: 16px;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: var(--soft-orange);
+}
