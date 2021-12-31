@@ -1,10 +1,10 @@
 # Curso de Responsive Design: Maquetación Mobile First 🍇
 
-## [Demo](https://johdasgran.github.io/batatabit/)
+## [Demo de batatabit 🍤](https://johdasgran.github.io/batatabit/)
 
 ![git-mobile-batatabit](https://user-images.githubusercontent.com/69698539/147721822-c05683dc-2beb-445c-9126-1088f5061f00.gif)
 
-# Lighthouse
+# Lighthouse 
 
 ## Herramienta usada para contrastes: [Colour Contrast Analyser](https://www.tpgi.com/color-contrast-checker//)
 
