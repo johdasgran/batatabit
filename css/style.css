@@ -398,8 +398,10 @@ span.up {
 }
 .target .target-tittle {
   position: absolute;
-  top: calc(0% - 12.5px);
-  right: calc(50% - 50px);
+  top: calc(0% - 14.5px);
+  /* right: calc(50% - 50px); */
+  left: 50%;
+  transform: translate(-50%, 0);
   padding: 8px;
   font-family: var(--font-secondary);
   font-weight: 700;

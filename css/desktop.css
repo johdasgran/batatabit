@@ -138,8 +138,8 @@ span.up {
 }
 
 .target .target-tittle {
-  top: calc(0% - 19.5px);
-  right: calc(50% - 90px);
+  /* top: calc(0% - 19.5px);
+  right: calc(50% - 90px); */
   padding: 12px;
   font-size: 2.2rem;
 }
